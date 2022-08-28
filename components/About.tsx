@@ -18,19 +18,19 @@ const About = () => {
                         I am enthusiatic developer with startup minset
                     </p>
                     <p className="py-2 text-gray-600">
-                        I'm self-taught developer who learn to develop
+                        I&apos;m self-taught developer who learn to develop
                         full-stack web application by myself through many
-                        project I was developed. I'm project based learning
+                        project I was developed. I&apos;m project based learning
                         developer who love to learning by building projects
                         instead of learnig through theory based. I have 2+ years
                         of Full-stack web development experience by building
-                        project with many idea from Social media,EdTech,NFT
-                        marketplace, P2P Cryptocurrency market,Buy now pay later
-                        from Crypto Stablecoin Bank as a supply,And Crypto
+                        project with many idea from Social media&rsquo;EdTech&rsquo;NFT
+                        marketplace&rsquo; P2P Cryptocurrency market&rsquo;Buy now pay later
+                        from Crypto Stablecoin Bank as a supply&rsquo;And Crypto
                         payment API.
                     </p>
                     <p className="py-2 text-gray-600">
-                        I'm on going to build the innovation and impactful
+                        I&apos;m on going to build the innovation and impactful
                         business and crypto project for people around the world.
                         So I need to join with the most interesting team that
                         need to build the impactful crypto business and crypto

@@ -11,18 +11,18 @@ const Main: FunctionComponent = () => {
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
                 <div>
                     <p className="uppercase text-sm tracking-widest text-gray-600">
-                        Let's Build Impactful Business Together
+                        Let&apos;s Build Impactful Business Together
                     </p>
                     <h1 className="py-4 text-gray-700">
-                        Hi, I'm <span className="text-blue-500">Gognumb</span>
+                        Hi I&apos;m <span className="text-blue-500">Gognumb</span>
                     </h1>
                     <h1 className="py-4 text-gray-700">
                         A Full Stack Web Developer
                     </h1>
                     <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-                        I'm a full stack developer specializing in building
-                        full-stack web application about cryptocurrency,DeFi and
-                        NFT projects. I'm looking for join the crypto startup
+                        I&apos;m a full stack developer specializing in building
+                        full-stack web application about cryptocurrency&rsquo;DeFi and
+                        NFT projects. I&apos;m looking for join the crypto startup
                         with the challenging mission to build crypto project or
                         business that will satisfy customers needs.
                     </p>

@@ -31,7 +31,8 @@ const Curlent = () => {
                     <p className="my-4">Project</p>
                     <h2 className="my-4">Overview</h2>
                     <p className="">
-                    Neoflow is P2P Exchange platform to buy and sell your cryptocurrency directly to your own blockchain address with your local currency. This project dosn't charge your real money. It's just full-stack web for your inteaction.
+                    Neoflow is P2P Exchange platform to buy and sell your cryptocurrency directly to your own blockchain address with your local currency. 
+                    This project dosn&apos;t charge your real money. It&apos;s just full-stack web for your inteaction.
 
                     </p>
                     <button

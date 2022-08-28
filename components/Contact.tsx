@@ -30,10 +30,10 @@ const Contact = () => {
                                 <h2 className="py-2">Khemmapich Panyana</h2>
                                 <p>Full Stack Developer</p>
                                 <p className="py-4">
-                                    I'm focus on web3 development includes
-                                    cryptocurrency,DeFi,NFT. I'm available for
+                                    I&apos;m focus on web3 development includes
+                                    cryptocurrency&rsquo;DeFi&rsquo;NFT. I&apos;m available for
                                     freelance or full-time positions. Contact me
-                                    and let's talk.
+                                    and let&apos;s talk.
                                 </p>
                             </div>
                             <div>
