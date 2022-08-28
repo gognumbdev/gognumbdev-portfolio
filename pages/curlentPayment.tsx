@@ -37,9 +37,9 @@ const CurlentPayment = () => {
                         experience for their customer. Although Curlent Payment
                         is still MVP but you can try to make crypto payment
                         transaction on blockchain test network includes Ethereum
-                        Ropsten Network, BSC Test Netowrk, Optimism Kovan
-                        Network,Polygon Mumbai Network. You can make transaction
-                        with MetaMask wallet , Coinbase Wallet , and Terra
+                        Ropsten Network&rsquo; BSC Test Netowrk&rsquo; Optimism Kovan
+                        Network&rsquo;Polygon Mumbai Network. You can make transaction
+                        with MetaMask wallet &rsquo; Coinbase Wallet &rsquo; and Terra
                         Station Wallet. We still provides link to network
                         faucets in the case that you need to test our crypto
                         payment service.
@@ -67,14 +67,6 @@ const CurlentPayment = () => {
                         }
                     >
                         DEMO
-                    </button>
-                    <button
-                        className="px-8 py-2 mt-4 mr-8"
-                        onClick={() =>
-                            router.push('https://www.canva.com/design/DAE_nXXT7aQ/PQlMvldoMWsRaxj3HvtghA/view?utm_content=DAE_nXXT7aQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')
-                        }
-                    >
-                        Pitch Deck
                     </button>
                     <button
                         className="px-8 py-2 mt-4 mr-8"
@@ -118,8 +110,8 @@ const CurlentPayment = () => {
                             <RiRadioButtonFill />{' '}
                             <span className="font-bold mx-2">Ethers.js</span>{' '}
                             for develop ethereum development task on browser
-                            such as interact with MetaMask wallet,Coinbase
-                            wallet, process crypto payment from user
+                            such as interact with MetaMask wallet&rsquo;Coinbase
+                            wallet&rsquo; process crypto payment from user
                             transaction.
                         </p>
                         <p className="text-gray-600 py-2 flex items-center">

@@ -39,7 +39,7 @@ const Curlent = () => {
                         stablecoins to Curlent like a digital bank so that
                         Curlent have a credit to serve buy-now-pay-later for
                         SMEs to spend their credit to operate their business.
-                        This project does,t charge your real money,It's just
+                        This project does&rsquo;t charge your real money&rsquo;It&apos;s just
                         full-stack web for your inteaction. I develop in the
                         crypto supplier development tasks.
                     </p>
@@ -132,8 +132,8 @@ const Curlent = () => {
                             <RiRadioButtonFill />{' '}
                             <span className="font-bold mx-2">Ethers.js</span>{' '}
                             for develop ethereum development task on browser
-                            such as interact with MetaMask wallet,Coinbase
-                            wallet, process crypto payment from user
+                            such as interact with MetaMask wallet&rsquo;Coinbase
+                            wallet&rsquo; process crypto payment from user
                             transaction.
                         </p>
                         <p className="text-gray-600 py-2 flex items-center">
@@ -145,9 +145,9 @@ const Curlent = () => {
                             <RiRadioButtonFill />{' '}
                             <span className="font-bold mx-2">Solidity</span>{' '}
                             smart contract programming language for Ethereum
-                            Virtual Machine compatible blockchain, Solidity
+                            Virtual Machine compatible blockchain&rsquo; Solidity
                             using for develop smart contract to make cross-chain
-                            transaction includes ERC-20 token,BEP-20 token ,and
+                            transaction includes ERC-20 token&rsquo;BEP-20 token &rsquo;and
                             bridge.
                         </p>
                     </div>

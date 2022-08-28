@@ -39,10 +39,10 @@ const CurlentBridge = () => {
                         transaction between two blockchain. Curlent bridge is on
                         the test phase that you can bridge Curlent token between
                         blockhain test network such as Ethereum Kovan
-                        Network,BSC Test Network,Polygon Mumbai Network,Optimism
+                        Network&rsquo;BSC Test Network&rsquo;Polygon Mumbai Network&rsquo;Optimism
                         Kovan Network. You can mint Curlent token on every chain
-                        which we provides for you,they are ERC-20 tokens and
-                        BEP-20 token. For example,you can bridge Curlent
+                        which we provides for you&rsquo;they are ERC-20 tokens and
+                        BEP-20 token. For example&rsquo;you can bridge Curlent
                         Ethereum Token (aka CETH) on Ethereum Kovan Network to
                         be Curlent BSC Token (aka CBSC) on BSC Test Network and
                         similar action for other conditions between the
@@ -100,8 +100,8 @@ const CurlentBridge = () => {
                             <RiRadioButtonFill />{' '}
                             <span className="font-bold mx-2">Ethers.js</span>{' '}
                             for develop ethereum development task on browser
-                            such as interact with MetaMask wallet,Coinbase
-                            wallet, process crypto payment from user
+                            such as interact with MetaMask wallet&rsquo;Coinbase
+                            wallet&rsquo; process crypto payment from user
                             transaction.
                         </p>
                         <p className="text-gray-600 py-2 flex items-center">
@@ -113,9 +113,9 @@ const CurlentBridge = () => {
                             <RiRadioButtonFill />{' '}
                             <span className="font-bold mx-2">Solidity</span>{' '}
                             smart contract programming language for Ethereum
-                            Virtual Machine compatible blockchain, Solidity
+                            Virtual Machine compatible blockchain&rsquo; Solidity
                             using for develop smart contract to make cross-chain
-                            transaction includes ERC-20 token,BEP-20 token ,and
+                            transaction includes ERC-20 token&rsquo;BEP-20 token &rsquo;and
                             bridge.
                         </p>
                     </div>
