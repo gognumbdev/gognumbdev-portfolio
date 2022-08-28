@@ -1,11 +1,14 @@
+import { NextRouter, useRouter } from 'next/router'
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 
 const Contact = () => {
+    const router: NextRouter = useRouter()
     return (
-        <div className="w-full lg:h-screen">
+        <div id="contact" className="w-full lg:h-screen">
             {/* Left Side */}
             <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
                 <p className="text-xl tracking-widest uppercase text-blue-500">
@@ -38,16 +41,40 @@ const Contact = () => {
                                     Connect With Me
                                 </p>
                                 <div className="flex items-center justify-between py-4">
-                                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                    <div
+                                        className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300"
+                                        onClick={() =>
+                                            router.push(
+                                                'https://www.linkedin.com/in/khemmapich-panyana-a33230216/'
+                                            )
+                                        }
+                                    >
                                         <FaLinkedinIn />
                                     </div>
-                                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                    <div
+                                        className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300"
+                                        onClick={() =>
+                                            router.push(
+                                                'https://github.com/gognumbdev'
+                                            )
+                                        }
+                                    >
                                         <FaGithub />
                                     </div>
-                                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                    <div
+                                        className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300"
+                                        onClick={() =>
+                                            alert(
+                                                'Please send your email to gognumbdev@gmail.com'
+                                            )
+                                        }
+                                    >
                                         <AiOutlineMail />
                                     </div>
-                                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                    <div
+                                        className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300"
+                                        onClick={() => router.push('/#contact')}
+                                    >
                                         <BsFillPersonLinesFill />
                                     </div>
                                 </div>
@@ -56,7 +83,7 @@ const Contact = () => {
                     </div>
 
                     {/* Right Side */}
-                    <div className="cols-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+                    <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
                         <div className="p-4">
                             <form action="">
                                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -89,12 +116,48 @@ const Contact = () => {
                                     </label>
                                     <input
                                         className="border-2 rounded-lg p-3 flex border-gray-300"
-                                        type="text"
+                                        type="email"
                                         name=""
                                     />
                                 </div>
+
+                                <div className="flex flex-col">
+                                    <label className="uppercase text-sm py-2">
+                                        Subject
+                                    </label>
+                                    <input
+                                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                                        type="email"
+                                        name=""
+                                    />
+                                </div>
+
+                                <div className="flex flex-col">
+                                    <label className="uppercase text-sm py-2">
+                                        Message
+                                    </label>
+                                    <textarea
+                                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                                        rows={10}
+                                    />
+                                </div>
+
+                                <button className="w-full p-4 text-gray-100">
+                                    Send Message
+                                </button>
                             </form>
                         </div>
+                    </div>
+                </div>
+
+                {/* ... */}
+                <div className="flex justify-center py-12">
+                    <div className="rounded-full shadow-lg shadow-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <HiOutlineChevronDoubleUp
+                            className="m-auto text-blue-500"
+                            size={30}
+                            onClick={() => router.push('/')}
+                        />
                     </div>
                 </div>
             </div>

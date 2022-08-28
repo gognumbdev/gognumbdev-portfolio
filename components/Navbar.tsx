@@ -1,4 +1,4 @@
-import { FunctionComponent, useState } from 'react'
+import { FunctionComponent, useEffect, useState } from 'react'
 import { NextRouter, useRouter } from 'next/router'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
@@ -6,16 +6,37 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Navbar: FunctionComponent = () => {
     const [nav, setNav] = useState(false)
+    const [shadowed, setShadowed] = useState(false)
 
     const handleNav = () => {
         setNav(!nav)
     }
 
+    useEffect(() => {
+        const handleShadow = () => {
+            if (window.scrollY >= 90) {
+                setShadowed(true)
+            } else {
+                setShadowed(false)
+            }
+        }
+        window.addEventListener('scroll', handleShadow)
+    }, [])
+
     const router: NextRouter = useRouter()
     return (
-        <div className="fixed w-full h-50 shadow-xl z-[100]">
+        <div
+            className={
+                shadowed
+                    ? 'fixed w-full h-50 shadow-xl z-[100]'
+                    : 'fixed w-full h-50 z-[100]'
+            }
+        >
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 py-4">
-                <p className="font-bold cursor-pointer" onClick={() => router.push("/")}>
+                <p
+                    className="font-bold cursor-pointer"
+                    onClick={() => router.push('/')}
+                >
                     <span className="text-blue-500">Gognumb</span>
                     <span className="">Dev</span>
                 </p>
@@ -29,25 +50,25 @@ const Navbar: FunctionComponent = () => {
                         </li>
                         <li
                             className="ml-10 text-sm uppercase hover:border-b"
-                            onClick={() => router.push('/')}
+                            onClick={() => router.push('/#about')}
                         >
                             About
                         </li>
                         <li
                             className="ml-10 text-sm uppercase hover:border-b"
-                            onClick={() => router.push('/')}
+                            onClick={() => router.push('/#skills')}
                         >
                             Skills
                         </li>
                         <li
                             className="ml-10 text-sm uppercase hover:border-b"
-                            onClick={() => router.push('/')}
+                            onClick={() => router.push('/#projects')}
                         >
                             Projects
                         </li>
                         <li
                             className="ml-10 text-sm uppercase hover:border-b"
-                            onClick={() => router.push('/')}
+                            onClick={() => router.push('/#contact')}
                         >
                             Contact
                         </li>

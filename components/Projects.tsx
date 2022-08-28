@@ -7,7 +7,7 @@ import ProjectItem from './ProjectItem'
 
 const Projects = () => {
     return (
-        <div className="w-full">
+        <div id="projects" className="w-full">
             <div className="max-w-[1240px] mx-auto px-2 py-16">
                 <p className="text-xl tracking-widest uppercase text-blue-500">
                     Projects
@@ -59,11 +59,10 @@ const Projects = () => {
                             'Tailwindcss',
                             'HeadlessUI',
                             'Ethers.js',
-                            'Promtpay QR Code'
+                            'Promtpay QR Code',
                         ]}
                         projectUrl="/neoflow"
                     />
-
                 </div>
             </div>
         </div>
