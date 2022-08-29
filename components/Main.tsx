@@ -21,7 +21,7 @@ const Main: FunctionComponent = () => {
                     </h1>
                     <p className="py-4 text-gray-600 max-w-[70%] m-auto">
                         I&apos;m a full stack developer specializing in building
-                        full-stack web application about cryptocurrency&rsquo;DeFi and
+                        full-stack web application about cryptocurrency,DeFi and
                         NFT projects. I&apos;m looking for join the crypto startup
                         with the challenging mission to build crypto project or
                         business that will satisfy customers needs.

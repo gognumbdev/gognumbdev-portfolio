@@ -104,14 +104,14 @@ const Curlent = () => {
                         <p className="text-gray-600 py-2 flex items-center">
                             <RiRadioButtonFill />{' '}
                             <span className="font-bold mx-2">Promptpay-qr</span>{' '}
-                            Mobile web app&rsquo; command line app&rsquo; and JavaScript library to generate QR Code payload for PromptPay.
+                            Mobile web app, command line app, and JavaScript library to generate QR Code payload for PromptPay.
                         </p>
                         <p className="text-gray-600 py-2 flex items-center">
                             <RiRadioButtonFill />{' '}
                             <span className="font-bold mx-2">Ethers.js</span>{' '}
                             for develop ethereum development task on browser
-                            such as interact with MetaMask wallet&rsquo;Coinbase
-                            wallet&rsquo; process crypto payment from user
+                            such as interact with MetaMask wallet,Coinbase
+                            wallet, process crypto payment from user
                             transaction.
                         </p>
                         <p className="text-gray-600 py-2 flex items-center">
@@ -123,9 +123,9 @@ const Curlent = () => {
                             <RiRadioButtonFill />{' '}
                             <span className="font-bold mx-2">Solidity</span>{' '}
                             smart contract programming language for Ethereum
-                            Virtual Machine compatible blockchain&rsquo; Solidity
+                            Virtual Machine compatible blockchain, Solidity
                             using for develop smart contract to make cross-chain
-                            transaction includes ERC-20 token&rsquo;BEP-20 token &rsquo;and
+                            transaction includes ERC-20 token,BEP-20 token ,and
                             bridge.
                         </p>
                     </div>

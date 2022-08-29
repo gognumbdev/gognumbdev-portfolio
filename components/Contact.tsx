@@ -31,7 +31,7 @@ const Contact = () => {
                                 <p>Full Stack Developer</p>
                                 <p className="py-4">
                                     I&apos;m focus on web3 development includes
-                                    cryptocurrency&rsquo;DeFi&rsquo;NFT. I&apos;m available for
+                                    cryptocurrency,DeFi,NFT. I&apos;m available for
                                     freelance or full-time positions. Contact me
                                     and let&apos;s talk.
                                 </p>
