@@ -31,7 +31,7 @@ const CurlentPayment = () => {
                     <p className="my-4">Project</p>
                     <h2 className="my-4">Overview</h2>
                     <p className="">
-                        Curlent Payment is crypto payment infrastructure to
+                        Curlent Payment is crypto payment infrastructure
                         allow online business to integrate APIs and accept
                         crypto payment from their customer with seamless
                         experience for their customer. Although Curlent Payment
@@ -39,8 +39,7 @@ const CurlentPayment = () => {
                         transaction on blockchain test network includes Ethereum
                         Ropsten Network, BSC Test Netowrk, Optimism Kovan
                         Network,Polygon Mumbai Network. You can make transaction
-                        with MetaMask wallet , Coinbase Wallet, and Terra
-                        Station Wallet. We still provides link to network
+                        with MetaMask wallet , Coinbase Wallet. We still provides link to network
                         faucets in the case that you need to test our crypto
                         payment service.
                     </p>

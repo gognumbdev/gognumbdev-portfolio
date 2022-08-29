@@ -15,7 +15,7 @@ const About = () => {
                     </p>
                     <h2>Who I Am</h2>
                     <p className="py-2 text-gray-600">
-                        I am enthusiatic developer with startup minset
+                        I am enthusiatic developer with entrepreneurial mindset
                     </p>
                     <p className="py-2 text-gray-600">
                         I&apos;m self-taught developer who learn to develop
@@ -30,7 +30,7 @@ const About = () => {
                         payment API.
                     </p>
                     <p className="py-2 text-gray-600">
-                        I&apos;m on going to build the innovation and impactful
+                        I&apos;m on going to build impactful
                         business and crypto project for people around the world.
                         So I need to join with the most interesting team that
                         need to build the impactful crypto business and crypto

@@ -39,7 +39,7 @@ const Curlent = () => {
                         stablecoins to Curlent like a digital bank so that
                         Curlent have a credit to serve buy-now-pay-later for
                         SMEs to spend their credit to operate their business.
-                        This project does,t charge your real money,It&apos;s just
+                        This project doesn&apos;t charge your real money,It&apos;s just
                         full-stack web for your inteaction. I develop in the
                         crypto supplier development tasks.
                     </p>
@@ -121,7 +121,7 @@ const Curlent = () => {
                         <p className="text-gray-600 py-2 flex items-center">
                             <RiRadioButtonFill />{' '}
                             <span className="font-bold mx-2">MongoDB</span>{' '}
-                            for store and retrieve data to process for Curlent services.
+                            database using for store and retrieve data to process for Curlent services.
                         </p>
                         <p className="text-gray-600 py-2 flex items-center">
                             <RiRadioButtonFill />{' '}
